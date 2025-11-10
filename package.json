@@ -1,0 +1,23 @@
+{
+  "name": "mijia-jsapi",
+  "version": "1.0.0",
+  "description": "米家api",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrWhatHuang/mijia-jsapi.git"
+  },
+  "keywords": [
+    "mijia",
+    "xiaomi"
+  ],
+  "author": "mr.what",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MrWhatHuang/mijia-jsapi/issues"
+  },
+  "homepage": "https://github.com/MrWhatHuang/mijia-jsapi#readme"
+}
