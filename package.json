@@ -2,22 +2,34 @@
   "name": "mijia-jsapi",
   "version": "1.0.0",
   "description": "米家api",
-  "main": "index.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "author": "mr.what",
+  "license": "MIT",
+  "homepage": "https://github.com/MrWhatHuang/mijia-jsapi#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MrWhatHuang/mijia-jsapi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MrWhatHuang/mijia-jsapi/issues"
   },
   "keywords": [
     "mijia",
     "xiaomi"
   ],
-  "author": "mr.what",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/MrWhatHuang/mijia-jsapi/issues"
+  "main": "src/index.ts",
+  "scripts": {
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "dev": "vite",
+    "lib": "vite build"
   },
-  "homepage": "https://github.com/MrWhatHuang/mijia-jsapi#readme"
+  "dependencies": {
+    "alova": "^3.3.4"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^6.2.0",
+    "eslint": "^9.38.0",
+    "eslint-plugin-format": "^1.0.2",
+    "vite": "^7.2.2"
+  }
 }
