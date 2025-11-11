@@ -10,7 +10,9 @@ const alovaInstance = createAlova({
       // 去掉前缀 &&&START&&&
       const clean = text.replace(/^&&&START&&&/, '')
       try {
-        return JSON.parse(clean)
+        const parsed = JSON.parse(clean)
+        parsed.__proto__.headers = response.headers
+        return parsed
       }
       catch (err) {
         console.error('解析失败:', clean)

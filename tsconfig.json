@@ -1,14 +1,14 @@
 {
   "compilerOptions": {
-    "target": "ES2024",
-    "jsx": "react-jsx",
+    "target": "ES2020",
+    "rootDir": "./src",
     "module": "ESNext",
     "moduleResolution": "Bundler",
-    "strict": true,
-    "strictFunctionTypes": true,
-    "strictNullChecks": true,
-    "sourceMap": true
+    "types": ["node"],
+    "outDir": "dist",
+    "sourceMap": false
   },
+  "include": ["src"],
   "exclude": [
     "node_modules",
     "**/node_modules/*"
